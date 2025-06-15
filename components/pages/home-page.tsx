@@ -163,7 +163,7 @@ export default function HomePage() {
           </div>
         ) : (
           <>
-            <div className=" bg-white rounded-md py-2 px-3 mb-4">
+            <div className=" bg-white rounded-md p-2 mb-4">
               <FilterBar
                 selectedCategory={selectedCategory}
                 timeFilter={timeFilter}
@@ -187,6 +187,9 @@ export default function HomePage() {
                 loading={loading}
               />
             </div>
+            <h1 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">
+              Trending videos on youtube
+            </h1>
             <StatsCards
               videos={filteredAndSortedVideos}
               regionCode={selectedRegion}

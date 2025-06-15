@@ -39,6 +39,7 @@ function VideoItem({ video, rank, viewMode }: VideoItemProps) {
         <div className="flex" onClick={handleVideoClick}>
           {/* Thumbnail */}
           <div className="relative flex-shrink-0">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={video.thumbnail}
               alt={video.title}
@@ -95,6 +96,7 @@ function VideoItem({ video, rank, viewMode }: VideoItemProps) {
   return (
     <Card className="overflow-hidden pt-0 hover:shadow-lg transition-all duration-200 hover:scale-[1.02] cursor-pointer group">
       <div className="relative" onClick={handleVideoClick}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={video.thumbnail}
           alt={video.title}

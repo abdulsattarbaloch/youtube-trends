@@ -1,7 +1,7 @@
 import AboutPage from "@/components/pages/about-page";
 import { Metadata } from "next";
 
-export const aboutMetadata: Metadata = {
+export const metadata: Metadata = {
   title: "About YouTube Trends - Your Premier Viral Content Discovery Platform",
   description:
     "Learn about YouTube Trends, the leading platform for discovering viral content worldwide. Our mission is to provide comprehensive trend analysis tools for creators, marketers, and researchers.",

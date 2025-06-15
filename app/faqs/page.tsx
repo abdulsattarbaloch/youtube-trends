@@ -1,7 +1,7 @@
 import FAQsPage from "@/components/pages/faqs-page";
 import { Metadata } from "next";
 
-export const faqsMetadata: Metadata = {
+export const metadata: Metadata = {
   title: "YouTube Trends FAQ - Common Questions About Trend Analysis",
   description:
     "Find answers to frequently asked questions about YouTube Trends platform. Learn how to use our trend analysis tools, filtering options, regional data, and more.",

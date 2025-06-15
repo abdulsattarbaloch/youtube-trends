@@ -1,7 +1,8 @@
+import MarketingArticle from "@/components/article";
 import HomePage from "@/components/pages/home-page";
 import { Metadata } from "next";
 
-export const homeMetadata: Metadata = {
+export const metadata: Metadata = {
   title: "YouTube Trends - Discover Viral Content & Trending Videos Worldwide",
   description:
     "Track trending YouTube videos across 50+ regions with real-time analytics. Advanced filtering by category, time, and engagement metrics. Perfect for content creators, marketers, and researchers.",
@@ -35,5 +36,10 @@ export const homeMetadata: Metadata = {
 };
 
 export default function Home() {
-  return <HomePage />;
+  return (
+    <div className="flex flex-col space-y-6 md:space-y-10">
+      <HomePage />
+      <MarketingArticle />
+    </div>
+  );
 }

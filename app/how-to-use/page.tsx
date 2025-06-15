@@ -1,7 +1,7 @@
 import HowToUsePage from "@/components/pages/how-to-use-page";
 import { Metadata } from "next";
 
-export const howItWorksMetadata: Metadata = {
+export const metadata: Metadata = {
   title: "How YouTube Trends Works - Complete Guide to Trend Analysis",
   description:
     "Learn how to use YouTube Trends platform step-by-step. Discover trending videos, apply filters, analyze regional data, and leverage insights for content strategy.",

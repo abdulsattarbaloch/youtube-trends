@@ -1,7 +1,7 @@
 import TermsOfServicePage from "@/components/pages/tos-page";
 import { Metadata } from "next";
 
-export const termsOfServiceMetadata: Metadata = {
+export const metadata: Metadata = {
   title: "Terms of Service - YouTube Trends Usage Terms & Conditions",
   description:
     "Review YouTube Trends terms of service and usage conditions. Understand your rights and responsibilities when using our viral content discovery and trend analysis platform.",

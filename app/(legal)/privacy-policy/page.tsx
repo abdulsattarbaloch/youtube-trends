@@ -1,7 +1,7 @@
 import PrivacyPolicyPage from "@/components/pages/privacy-policy-page";
 import { Metadata } from "next";
 
-export const privacyPolicyMetadata: Metadata = {
+export const metadata: Metadata = {
   title: "Privacy Policy - YouTube Trends Data Protection & User Privacy",
   description:
     "Read YouTube Trends privacy policy to understand how we protect your data, what information we collect, and how we ensure your privacy while using our trend analysis platform.",
